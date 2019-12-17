@@ -533,8 +533,7 @@
             
             $(document).ready(function()
             {
-                $('#props__select').on('change', function()
-                {
+                $('#props__select').on('change', function() {
                     $($(this).find('option:selected').data('list')).removeClass('removed').siblings('.props__list').addClass('removed');
                     $($(this).find('option:selected').data('video')).removeClass('removed').siblings('.props__video').addClass('removed');
                 });

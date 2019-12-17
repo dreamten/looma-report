@@ -319,6 +319,7 @@ html, body {
     border-radius: 8px;
     white-space: nowrap;
     background: #FFF;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
 }
 .summary__label {
     font-size: 18px;
@@ -628,6 +629,80 @@ html, body {
 @media screen and (max-width: 767.98px) {
     .props__video {
         margin-top: 20px;
+    }
+}
+
+
+
+/**/
+/* print styles */
+/**/
+@media print {
+    html, body {
+        background: #FFF;
+    }
+    
+    .page {
+        padding-bottom: 0;
+    }
+    
+    .grid-cont {
+        padding: 0 !important;
+    }
+    
+    .headline {
+        padding: 0;
+        border: none;
+    }
+    
+    .summary {
+        padding: 30px 0;
+        background: none;
+        color: #000;
+    }
+    .summary__date {
+        padding-bottom: 6px;
+        border-bottom: 1px solid #E0E0E0;
+    }
+    .summary__item {
+        margin-top: 20px;
+        padding: 0;
+        box-shadow: none;
+    }
+    
+    .sales {
+        margin-top: 0;
+    }
+    .sales__head {
+        margin-bottom: 0;
+        padding-bottom: 6px;
+    }
+    .sales__heading {
+        margin: 20px 0 10px;
+    }
+    .sales__frame {
+        padding: 0;
+        box-shadow: none;
+    }
+    .sales__chart {
+        height: 150px;
+    }
+    
+    .props .grid-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .props__title {
+        margin-bottom: 10px;
+    }
+    .props__list {
+        line-height: 28px;
+    }
+    .props__list dt span {
+        display: none;
+    }
+    .props__video {
+        display: none;
     }
 }
 
