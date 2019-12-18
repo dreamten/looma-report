@@ -656,7 +656,7 @@ html, body {
     }
     
     .summary {
-        padding: 30px 0;
+        padding: 20px 0;
         background: none;
         color: #000;
     }
@@ -677,6 +677,10 @@ html, body {
         margin-bottom: 0;
         padding-bottom: 6px;
     }
+    .sales__title {
+        font-size: 22px;
+        line-height: 28px;
+    }
     .sales__heading {
         margin: 20px 0 10px;
     }
@@ -694,9 +698,12 @@ html, body {
     }
     .props__title {
         margin-bottom: 10px;
+        font-size: 22px;
+        line-height: 28px;
     }
     .props__list {
-        line-height: 28px;
+        font-size: 13px;
+        line-height: 20px;
     }
     .props__list dt span {
         display: none;
