@@ -639,6 +639,28 @@ html, body {
 /**/
 @media print {
     html, body {
+        width: 1120px;
+    }
+    
+    .page {
+        padding-bottom: 0;
+    }
+    
+    .headline {
+        padding-top: 0;
+        border: none;
+    }
+    
+    .summary {
+        background: none;
+        color: #18254F;
+    }
+    
+    .props__list dt span {
+        display: none;
+    }
+/*
+    html, body {
         background: #FFF;
     }
     
@@ -711,6 +733,7 @@ html, body {
     .props__video {
         display: none;
     }
+*/
 }
 
 
