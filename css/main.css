@@ -149,6 +149,7 @@ html, body {
     position: relative;
     padding: 20px 0;
     border-top: 6px solid #E66421;
+    background-color: #FFF;
 }
 .headline__logo {
     display: block;
@@ -650,14 +651,27 @@ html, body {
         padding-top: 0;
         border: none;
     }
+    .summary__item {
+        box-shadow: none;
+        border: 1px solid #E0E0E0;
+    }
     
     .summary {
         background: none;
         color: #18254F;
     }
     
+    .sales__frame {
+        box-shadow: none;
+        border: 1px solid #E0E0E0;
+    }
+    
     .props__list dt span {
         display: none;
+    }
+    
+    .pagebreak {
+        page-break-after: always;
     }
 /*
     html, body {
